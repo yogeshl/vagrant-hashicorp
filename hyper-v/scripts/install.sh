@@ -10,7 +10,7 @@ set -x
 
 # install packages
   apt-get update
-  apt-get -y install docker.io ansible unzip
+  apt-get -y install docker.io ansible unzip git nodejs
 
 
 # add docker privileges
