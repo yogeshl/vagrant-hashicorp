@@ -7,7 +7,9 @@ Vagrantfile Load Order:
 Creating base box:
 
 1. Create a box
+
 vagrant up - start the box with all the Provisioners configured. Then create a package.
+
 vagrant package --vagrantfile vagrant_file/vagrantfile --output my-box.box
 
 2. Add to local box cache
